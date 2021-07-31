@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+
+*{
+    font-family: "Hind Siliguri", sans-serif;
+}
+    
+body {
+    margin: 0; 
+    background-image: linear-gradient(to right, #525252,#3d72b4); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.quizzContainer {
+    margin-top: 200px;
+    border: 1px solid black; 
+    width: 400px; 
+    border-radius: 5px; 
+    background-color:white;
+    overflow: hidden; 
+   
+   
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 100% ;
+    background-color: #4966A4;
+    padding: 10px; 
+    color:white; 
+    border: 1px solid #4966A4; 
+    border-radius: 2px; 
+   
+}
+
+
+h3 {
+    padding-left: 40px ;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 4px; 
+}
